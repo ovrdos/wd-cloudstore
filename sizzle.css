@@ -1,0 +1,144 @@
+	body {
+		overflow: scroll;
+		-webkit-user-select: none; /* Chrome/Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+ */
+
+		/* Rules below not implemented in browsers yet */
+		-o-user-select: none;
+		user-select: none;
+	}
+	::-webkit-scrollbar { 
+    display: none; 
+	}
+	body, html {
+		margin: 0;
+		padding: 0;
+	}
+	div.stealth {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 900;
+		width: 100%;
+		height: 100%;
+	}
+	.iframeWork {
+		width: 100%;
+		height: 100%;
+	}
+	div.adspace {
+		height: 90px;
+		width: 100%;
+		border-bottom: 1px solid #000;
+		background-color: #444;
+		position: fixed;
+		z-index: 800;
+	}
+	iframe#player1, #player2 {
+		display:none;
+	}
+	.video-box {
+		position: fixed;
+		top: 139px;
+		right: 382px;
+		margin: 0 auto;
+		width: 640px;
+		height: 360px;
+		border: 1px solid #FFF;
+	}
+	div#disqus_panel {
+		display: none;
+		float: right;
+		margin-top: 140px;
+		background-color: #999;
+		padding: 20px;
+		width: 342px;
+		min-height: 100%;
+		border-left: 1px solid white;
+		border-bottom: 1px solid white;
+		color: black;
+		font-size: 8px !important;
+	}
+	.post {
+		color: black;
+		font-size: 10px !important;
+	}
+	div.menu {
+		position: fixed;
+		top: 91px;
+		width: 100%;
+		height: 50px;
+		background-color: #999;
+		display: inline-block;
+		color: white;
+		border-bottom: 1px solid white;
+		margin: 0px;
+		padding: 0px;
+		padding-left: 10px;
+		z-index: 800;
+	}
+	div.center {
+        width: 640px;
+        display: block;
+	    margin-left: auto;
+        margin-right: auto;
+    }
+	img#newlogo-top {
+		position: fixed;
+		margin-top: -12px;
+		z-index: 12;
+		opacity: .7;
+    }
+    .networks {
+		float:right;
+		display:inline;
+		margin-right: 60px;
+	}
+	.bgborder {
+		margin-top: 100px;
+		width: 642px;
+		height: 364px;
+		display: inline-block;
+		border: 1px solid white;
+	}
+	.ctrl {
+		margin-top: 361px;
+		width: 100px;
+		height: 30px;
+		line-height: 30ppx;
+		border-top:1px solid white;
+		background-color: #78AB46;
+		text-align: center;
+		color: honeydew;
+		font-weight: normal;
+		font-size: 17pt;
+		font-family: 'Fugaz One', sans-serif;
+		cursor: pointer;
+		display:none;
+		font-sizee:20px;
+	}
+	.ctrl:hover {
+		background-color: #9ACD68;
+		color: white;
+	}
+.icon {
+width:25px;
+height:25px;
+display:block;
+text-indent:-9999px;
+background-image:url(http://tridentdesign.com/wp-content/uploads/2012/12/gemicon.jpg);
+background-repeat:no-repeat;
+}
+.instagram {
+background-position:-280px -115px;	
+}
+.facebook {
+background-position:-140px -115px;
+}
+.twitter {
+background-position:-185px -115px;
+}
+.googleplus {
+background-position:-140px -265px;
+}

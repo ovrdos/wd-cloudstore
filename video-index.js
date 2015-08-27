@@ -1,4 +1,4 @@
-var AddVideo = function() { this.addVariable = function(k,v) { if (v) { vids.push(v); } }}; var getNewVideos = function() { so = new AddVideo();
+var AddVideo = function() { this.addVariable = function(k,v) { if (v) { keys.push(k); vids.push(v); } }}; var getNewVideos = function() { so = new AddVideo();
 	so.addVariable("85630","http://hw-videos.worldstarhiphop.com/u/vid/2015/08/9BZVi1CfQclP.mp4");
 	so.addVariable("85629","http://www.youtube.com/v/fLtIIFu5PZc");
 	so.addVariable("85628","http://www.youtube.com/v/JyDlw7hE-lU");

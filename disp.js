@@ -66,12 +66,12 @@ previous_video = current_video;
 current_video = video;
 
 if (/youtube\.com/i.test(video)) {
-var opts = "&rel=0&controls=0&iv_load_policy=3&showinfo=0&modestbranding=1&origin=woahdope.com";
 var videoid = video.split('\/v\/');
 videoid = videoid[1].split('?')[0];
-opts = opts + "&hd=1&cc_load_policy=0&version=3&loop=1&playlist=" + videoid;
-video = "http://www.youtube.com/embed/" + videoid;
-video = video + "?autoplay=1" + opts;
+var opts = "&controls=0&iv_load_policy=3&showinfo=0&modestbranding=1&origin=woahdope.com";
+opts = opts + "&hd=1&cc_load_policy=0&version=3&loop=1";
+//video = "http://www.youtube.com/embed/" + videoid;
+video = "//www.youtube.com/embed/"+videoid+"?playlist="+videoid+"&autoplay=1&rel=0";
 }
 
 if (currentPlayer===1) {

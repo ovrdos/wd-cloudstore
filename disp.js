@@ -71,7 +71,7 @@ videoid = videoid[1].split('?')[0];
 var opts = "&controls=0&iv_load_policy=3&showinfo=0&modestbranding=1&origin=woahdope.com";
 opts = opts + "&hd=1&cc_load_policy=0&version=3&loop=1";
 //video = "http://www.youtube.com/embed/" + videoid;
-video = "//www.youtube.com/v/"+videoid+"?playlist="+videoid+"&autoplay=1&rel=0" + opts;
+video = "//www.youtube.com/embed/"+videoid+"?playlist="+videoid+"&autoplay=1&rel=0";
 }
 
 if (currentPlayer===1) {

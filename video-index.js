@@ -9,7 +9,7 @@ var AddVideo = function() { this.addVariable = function(k,v) { if (v) { vids.pus
 	so.addVariable("86771","http://www.youtube.com/v/CgeFIGkszs0");
 	so.addVariable("86770","http://birdice.com/u/vid/2015/10/mYJRwpPwIVxn.mp4");
 	so.addVariable("86769","http://birdice.com/u/vid/2015/10/A3Z36qCGx8i4.mp4");
-	so.addVariable(","http://birdice.com/u/vid/2015/10/3bDWYFjZS5Ke.mp4");
+	so.addVariable("86768","http://birdice.com/u/vid/2015/10/3bDWYFjZS5Ke.mp4");
 	so.addVariable("86767","http://birdice.com/u/vid/2015/10/WaEyRohcFQMp.mp4");
 	so.addVariable("86766","http://birdice.com/u/vid/2015/10/lAZiCD9Nwts8.mp4");
 	so.addVariable("86765","http://birdice.com/u/vid/2015/10/a6AnNDJuLmNr.mp4");
